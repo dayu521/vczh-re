@@ -23,7 +23,8 @@ using namespace std;
 
 int main(int argc , char* argv[])
 {
-	setlocale(LC_ALL,"chs");
+//	setlocale(LC_ALL,"chs");
+    setlocale(LC_ALL,"zh_CN.UTF-8");
 
 	while(true)
 	{

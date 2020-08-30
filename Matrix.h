@@ -45,8 +45,10 @@ public:
 
 	void New()
 	{
-		for (int i=0; i<=Row-1; ++i)
-			Data=new _Type*[Row];
+//-		for (int i=0; i<=Row-1; ++i)
+//-			Data=new _Type*[Row];
+        Data=new _Type*[Row];
+//-
 		for (int i=0; i<=Row-1; ++i)
 			Data[i]=new _Type[Column];
 	}
