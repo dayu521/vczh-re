@@ -87,11 +87,11 @@ public:
 		}
 	}
 };
-template<typename StatusNumber, typename EdgeContent>
-Link<StatusBase<StatusNumber,EdgeContent>*> StatusBase<StatusNumber,EdgeContent>::AllStatus;
+//template<typename StatusNumber, typename EdgeContent>
+//Link<StatusBase<StatusNumber,EdgeContent>*> StatusBase<StatusNumber,EdgeContent>::AllStatus;
 
-template<typename StatusNumber, typename EdgeContent>
-Link<typename StatusBase<StatusNumber,EdgeContent>::EdgeBase *> StatusBase<StatusNumber,EdgeContent>::EdgeBase::AllEdge;
+//template<typename StatusNumber, typename EdgeContent>
+//Link<typename StatusBase<StatusNumber,EdgeContent>::EdgeBase *> StatusBase<StatusNumber,EdgeContent>::EdgeBase::AllEdge;
 
 template<typename StatusData, typename EdgeData>
 class Status

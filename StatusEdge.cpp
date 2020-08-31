@@ -6,9 +6,9 @@ typedef Status<NfaStatusBase, NfaEdgeBase> NfaStatus;
 typedef NfaStatus::Edge NfaEdge;
 
 template<>
-Link<NfaStatusBase*> NfaStatusBase::AllStatus;
+Link<NfaStatusBase*> NfaStatusBase::AllStatus{};
 template<>
-Link<NfaEdgeBase*> NfaEdgeBase::AllEdge;
+Link<NfaEdgeBase*> NfaEdgeBase::AllEdge{};
 
 typedef StatusBase<DfaStatusNumber, EdgeMatchContent> DfaStatusBase;
 typedef DfaStatusBase::EdgeBase DfaEdgeBase;
@@ -16,9 +16,9 @@ typedef Status<DfaStatusBase, DfaEdgeBase> DfaStatus;
 typedef DfaStatus::Edge DfaEdge;
 
 template<>
-Link<DfaStatusBase*> DfaStatusBase::AllStatus;
+Link<DfaStatusBase*> DfaStatusBase::AllStatus{};
 template<>
-Link<DfaEdgeBase*> DfaEdgeBase::AllEdge;
+Link<DfaEdgeBase*> DfaEdgeBase::AllEdge{};
 
 //class EdgeMatchContent----------------------------
 
